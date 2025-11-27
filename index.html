@@ -262,8 +262,8 @@ footer {
 </div>
   
 <div hidden>
-<audio id="techitmusic" autoplay loop>
-<source src="techit.mp3">
+<audio id="credits" autoplay loop>
+<source src="credits.mp3">
 </audio>
 </div>  
 
@@ -282,7 +282,7 @@ footer {
 
     var jazzmusic = document.getElementById("jazzmusic")
  
-    var techitmusic = document.getElementById("techitmusic")
+    var creditsmusic = document.getElementById("creditsmusic")
   
     submusic.pause();
 
@@ -294,7 +294,7 @@ footer {
       cafemusic.pause();
       revvymusic.pause();
       jazzmusic.pause();
-      techitmusic.pause();
+      creditsmusic.pause();
       homemusic.play();
     }
 
@@ -357,7 +357,7 @@ footer {
    document.getElementById("myframe").src="https://9revisar.github.io/Tech-It/Credits.html"
    closeNav();
    homemusic.pause();
-   techitmusic.play();
+   creditsmusic.play();
   }
 
   function init(){
