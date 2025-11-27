@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <hr class="solid">
+       <h1>About Us</h1>
+    </head>
+<style>
+body {
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  background-color: #8ecae6;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 2px solid black;
+}
+</style>
+    <body>
+      <h3>TECH IT!© is a website made by a talented group of Grade 11 students of SY.2025-2026 that aims to help future Grade 11 students to have a fun and easier way of learning.</h3>
+      <h3>We offer an ever-growing set of lessons and reviewers about anything E-Tech related, that can help ease the task of studying, taking notes, and reviewing for upcomiong quizzes or exams.</h3>
+      <h3> Studying can be easy as one button click away.</h3>
+      <h3>So we welcome you with open arms!
+        To help you open doors, opportunities, and study with ease. Welcome to TECH-IT!©!</h3>
+        <hr class="solid">
+      <h1>Our Mission</h1>
+      <h3>Our mission at TECH-IT© is to help Grade 11 students with studying E-Tech by providing notes, presentations, and reviewers.
+      Our mission is to help lessen the confusion and stress of studying.
+      We aspire to deliver a reliable, user-friendly website that helps with learning to not only save time but to also confidently walk into your classroom well informed for an upcoming quiz!
+     </h3>
+        <hr class="solid">
+      <h1>Our Vision</h1>
+      <h3>We'd like to make a website where all your academic needs can be solved in one click.
+         Our Vision is to be a Website where future Grade 11 students can study easier, to inspire them to learn due to accessibility of lectures.
+        We envision a platform that not only promotes academic success but also provides future Grade 11 students with knowledge, and a desire for continuous improvement.</h3>
+      <hr class="solid">
+   </body>
+</html>
