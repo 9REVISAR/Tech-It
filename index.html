@@ -262,7 +262,7 @@ footer {
 </div>
   
 <div hidden>
-<audio id="creditsmusic" autoplay loop>
+<audio id="techitmusic" autoplay loop>
 <source src="techit.mp3">
 </audio>
 </div>  
@@ -282,11 +282,11 @@ footer {
 
     var jazzmusic = document.getElementById("jazzmusic")
  
-    var creditsmusic = document.getElementById("creditsmusic")
+    var techitmusic = document.getElementById("techitmusic")
   
     submusic.pause();
 
-    creditsmusic.pause();
+    techitmusic.pause();
 
    function openNav() {
       document.getElementById("mySidebar").style.width = "200px";
@@ -294,7 +294,7 @@ footer {
       cafemusic.pause();
       revvymusic.pause();
       jazzmusic.pause();
-      creditsmusic.pause();
+      techitmusic.pause();
       homemusic.play();
     }
 
@@ -357,7 +357,7 @@ footer {
    document.getElementById("myframe").src="https://9revisar.github.io/Tech-It/Credits.html"
    closeNav();
    homemusic.pause();
-   creditsmusic.play();
+   techitmusic.play();
   }
 
   function init(){
